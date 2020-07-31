@@ -4,8 +4,6 @@
 GitHub - Task list completed PR check
 =========================
 
-Install from the Marketplace: https://github.com/marketplace/task-list-completed
-
 Check a pull request body for task lists / checkboxes / tickboxes & make sure they are all completed.
 The check will not pass until all task lists have been checked.
 
@@ -54,13 +52,6 @@ Inside your GitHub repo > Settings > Branches > Branch protection rules > Add ru
 
 By default, we mark the check as in_progress until all tasks pass and then it marks it as successful.
 
-## TODO
-
-- [ ] unit tests & travis CI
-- [ ] Submit to https://github.com/probot/probot.github.io/blob/master/.github/app-review-process.md
-- [ ] Add config to allow changing from in_progress to completed but with a failure or neutral conclsion if needed -> https://probot.github.io/api/latest/classes/context.html#config
-- [ ] Finish docs, e.g. about using a .github/task-list.yml for above
-
 ## Contributing
 
 For now, on Glitch you can click to "remix to edit" and then work on your own forked version.
@@ -87,7 +78,7 @@ If you discover a security issue please email it to myself at andrew@stapps.io a
 
 #### About Glitch
 
-This repo is hosted with Glitch: https://glitch.com/edit/#!/task-list-completed
+This repo is hosted with Glitch: https://glitch.com/edit/#!/symc-task-list-completed
 
 **Glitch** is the friendly commmunity where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
 
